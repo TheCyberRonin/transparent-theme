@@ -1,0 +1,66 @@
+
+.pc-app {
+	background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-724858.jpg');
+	background-size: cover !important;
+	background-position: center !important;
+}
+.pc-guildsWrapper, .pc-scrollerThemed, .pc-scroller, .pc-guilds, .pc-base, .pc-spacer, .pc-channels, .pc-container,
+ .pc-layer, .pc-chat, .pc-titleWrapper, .pc-headerBar, .pc-content, .pc-messagesWrapper,
+ .pc-channelTextArea, .pc-typing, .pc-flex {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+.pc-layers {
+  background: rgba(0,0,0, 0.7) !important;
+}
+.container-2Thooq, form {
+  background: rgba(32,34,37,.3) !important;
+}
+.pc-scroller::-webkit-scrollbar-track,
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, 
+.pc-messagesWrapper::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.pc-members {
+  transform: translate(130px);
+  transition: all 300ms ease;
+  background: rgba(32,34,37,.3) !important;
+}
+.pc-members:hover {
+  transform: translate(0px);
+}
+.pc-members:hover::after {
+  display: none;
+}
+.pc-member {
+  margin-left: 25px;
+}
+.pc-members:hover .pc-member {
+  margin-left: 15px;
+}
+.pc-members:hover .pc-membersGroup {
+  font-size: 13px;
+  width: 100% !important;
+  padding: 4px;
+  text-align: center;
+  margin-left: 2px !important;
+}
+.pc-members .pc-memberInner {
+  opacity: 0;
+  transition: opacity 300ms ease, margin 100ms ease;
+}
+.pc-members:hover .pc-memberInner {
+  opacity: 1;
+}
+.pc-members .pc-memberInner .pc-nameTag {
+  margin-bottom: 6px;
+}
+.pc-members .pc-membersGroup {
+  font-size: 10px;
+  padding: 2px;
+  transition: all 300ms ease;
+  width: 40% !important;
+  height: 25px !important;
+  margin-left: 10px !important;
+}
