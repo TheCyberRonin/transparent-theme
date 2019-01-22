@@ -22,6 +22,9 @@
   background-color: transparent !important;
   border-color: transparent !important;
 }
+/* Based off of https://github.com/EllexideCodes/Discord-Themes/blob/master/addons/minimalUserList.css
+   It's ported to PC and reworked and stripped down
+*/
 .pc-members {
   transform: translate(130px);
   transition: all 300ms ease;
