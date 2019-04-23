@@ -1,0 +1,8 @@
+{
+  "name": "Transparent Theme",
+  "description": "Theme with a transparent background, you can choose the image in the import in the theme file.",
+  "version": "1.0",
+  "author": "CyberRonin",
+  "license": "MIT",
+  "theme": "./theme.css"
+}
